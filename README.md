@@ -3,7 +3,17 @@ RP Preset
 
 # RP-Preset
 
-A tuned generation preset optimized for immersive roleplay.
+A tuned generation preset I created for local model Gemma 4 to at least (I hope) copy Claude style. I admit it will still have standard cliche like white knuckle, physical blow etc.
+Use original preset for initial preset, Hemingway for shorter prose style, while BMC is experiment to cut as much token as possible. 
+Currently my aim is to try make preset with more formula, but I'm not an programmer, so it's vibecode. 
+
+### 📊 Token Weight Comparison
+
+| Section | 1. Original Preset (OG) <br> `JSON` | 2. Black Magic (Hemingway) <br> `JSON` | 3. Black Magic (Claude Emulation) | Total Tokens Saved (vs. OG) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Directive (System)** | ~835 tokens <br> `JSON` | ~310 tokens `JSON` | ~342 tokens | **~493 tokens** |
+| **CoT (Thinking Block)** | ~142 tokens <br> `JSON` | ~78 tokens `JSON` | ~81 tokens | **~61 tokens** |
+| **Total Preset Overhead** | **~977 tokens** <br> `JSON` | **~388 tokens** <br> `JSON` | **~423 tokens** | **~554 tokens** <br> **(-56.7%)** |
 
 ## 🎛️ Generation Parameters
 
