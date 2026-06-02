@@ -9,11 +9,11 @@ Currently my aim is to try make preset with more formula, but I'm not an program
 
 ### 📊 Token Weight Comparison
 
-| Section | 1. Original Preset (OG) <br> `JSON` | 2. Black Magic (Hemingway) <br> `JSON` | 3. Black Magic (Claude Emulation) | Total Tokens Saved (vs. OG) |
-| :--- | :---: | :---: | :---: | :---: |
-| **Directive (System)** | ~835 tokens <br> `JSON` | ~310 tokens `JSON` | ~342 tokens | **~493 tokens** |
-| **CoT (Thinking Block)** | ~142 tokens <br> `JSON` | ~78 tokens `JSON` | ~81 tokens | **~61 tokens** |
-| **Total Preset Overhead** | **~977 tokens** <br> `JSON` | **~388 tokens** <br> `JSON` | **~423 tokens** | **~554 tokens** <br> **(-56.7%)** |
+| Section | 1. Original Preset (OG) | 2. Black Magic (Hemingway) | 3. Black Magic (Claude Text) | 4. BMC Emoji | Total Saved (vs. OG) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`Directive` (System)** | ~835 tokens | ~310 tokens | ~342 tokens | **~214 tokens** | **~621 tokens** |
+| **`CoT` (Thinking Block)** | ~142 tokens | ~78 tokens | ~81 tokens | **~54 tokens** | **~88 tokens** |
+| **Total Preset Overhead** | **~977 tokens** | **~388 tokens** | **~423 tokens** | **~268 tokens** | **~709 tokens (-72.5%)** |
 
 ## 🎛️ Generation Parameters
 
